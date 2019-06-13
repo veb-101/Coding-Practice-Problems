@@ -19,3 +19,6 @@ def addTwoDigits(n):
 #         total += n % 10
 #         n //= 10
 #     return total
+
+print(addTwoDigits(29))
+print(addTwoDigits(99))
