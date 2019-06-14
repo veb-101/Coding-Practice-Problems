@@ -1,4 +1,5 @@
 # https: // app.codesignal.com/arcade/code-arcade/at-the-crossroads/m9wjpkCjgofg7gs8N/
+
 '''
 You are playing an RPG game. Currently your experience points (XP) total is
 equal to experience. To reach the next level your XP should be at least at
