@@ -24,4 +24,7 @@ def quasifactorial(n):
 
 print(quasifactorial(4))
 
+
+f = quasifactorial = lambda n: 1 // n or n * f(n - 1) - 1
+print(quasifactorial(4))
 print(quasifactorial(8))
