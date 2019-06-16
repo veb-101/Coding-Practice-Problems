@@ -15,12 +15,19 @@ def arrayComplexElementsProduct(r, i):
     t = 1 + 0j
     for x, y in zip(r, i):
         t *= complex(x, y)
-    return [t.real, t.imag]
+    return t.real, t.imag
 
 
-real = [1, 2]
-imag = [1, 3]
-# real = [1, 2, 3]
-# imag = [0, 0, 0]
+def arrayComplexElementsProduct(r, i):
+    t = 1
+    for x, y in zip(r, i):
+        t *= x + y*1j
+    return t.real, t.imag
+
+
+# real = [1, 2]
+# imag = [1, 3]
+real = [1, 2, 3]
+imag = [0, 0, 0]
 
 print(arrayComplexElementsProduct(real, imag))
