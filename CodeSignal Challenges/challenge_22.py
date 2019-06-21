@@ -1,6 +1,15 @@
-
+# https://app.codesignal.com/challenge/zA4ckXkvYQQ8Zitys
 '''
-Example (Test 1):
+You are given a positive integer x and you should perform n operations, where on the ith operation you increase x in such a way that its new value is divisible by i (operations are numbered from 1 to n).
+
+Find the minimal value of x you can obtain by performing n operations described above.
+
+Example
+
+For x = 9 and n = 5, the output should be
+increasingNumber(x, n) = 15.
+
+Example:
 1: 9+0=9 (9%1=0)
 2: 9+1=10 (10%2=0)
 3: 10+2=12 (12%3=0)
