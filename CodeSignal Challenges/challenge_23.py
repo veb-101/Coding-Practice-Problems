@@ -1,3 +1,13 @@
+# https://app.codesignal.com/challenge/3yXnrkrRohrQ2av8E
+'''
+Return the value of prefix function for a given string.
+
+Example
+
+For s = "acacbab", the output should be
+prefixFunctionNaive(s) = [0, 0, 1, 2, 0, 1, 0].
+'''
+
 # https://stackoverflow.com/questions/13792118/kmp-prefix-table
 # http://jakeboxer.com/blog/2009/12/13/the-knuth-morris-pratt-algorithm-in-my-own-words/
 
