@@ -32,5 +32,7 @@ def factorialTrailingZeros(n):
         return x + factorialTrailingZeros(x)
 
 
+factorialTrailingZeros = f = lambda n: n and n//5 + f(n//5)
+
 for i in range(10, 101):
     print(f"{i} -> {factorialTrailingZeros(i)}")
