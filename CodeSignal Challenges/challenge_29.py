@@ -32,6 +32,5 @@ def factorialTrailingZeros(n):
         return x + factorialTrailingZeros(x)
 
 
-# n = > n-2 >> 2
 for i in range(10, 101):
     print(f"{i} -> {factorialTrailingZeros(i)}")
